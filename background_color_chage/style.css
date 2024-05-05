@@ -1,0 +1,40 @@
+body {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+button {
+  font-size: 30px;
+  font-family: sans-serif;
+  font-weight: bold;
+  color: white;
+  border: 5px solid;
+  padding: 10px 20px;
+  background-color: transparent;
+  transition: 0.5s;
+}
+
+button:hover {
+  border-color: red;
+  box-shadow: 0px 0px 20px red, inset 0px 0px 20px red;
+  color: red;
+  text-shadow: 0px 0px 20px red;
+}
+
+.me {
+  font-size: 30px;
+  font-family: sans-serif;
+  font-weight: bold;
+  color: white;
+  align-self: self-end;
+  position: absolute;
+  right: 0;
+  bottom: 0;
+  padding-right: 30px;
+}
+
+.me:hover {
+}
